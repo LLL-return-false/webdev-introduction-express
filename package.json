@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "backend": "node ./src/api/index.js",
+    "frontend": "yarn run lite-server --port=8080 --baseDir=src/public"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "lite-server": "^2.6.1"
+  }
+}
